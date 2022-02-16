@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "strict": true,
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "importHelpers": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "rootDir": "src",
+    "outDir": "./dist/",
+    "types": ["node", "vite/client"]
+  },
+  "include": ["src/**/*.ts"], // should we not include *.test.ts files here?
+  "exclude": ["node_modules"]
+}
